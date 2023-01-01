@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  body {
+    background-image: url(./img/fundo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  
+  .titulo {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding-top: 40px;
+    height: 80px;
+    width: 100%;
+    background-color: rgb(6, 6, 85);
+    border-bottom: 4px dashed rgb(0, 0, 255);
+  }
+  
+  .card {
+    width: 400px;
+    background-color: rgb(255, 255, 255);
+    margin: 0 auto;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 10px;
+    margin-bottom: 50px;
+  }
+  
+  #foto {
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 10px;
+  }
+  
+  .card img {
+    width: 20px;
+  }
+  
+  .titulopraia {
+    text-align: center;
+    font-size: 25px;
+    color: rgb(6, 6, 85);
+  }
+  
+  .disable {
+    opacity: 0.5;
+  }
+  
+  .estrelas {
+    display: flex;
+    justify-content: center;
+    padding: 4%;
+  }
+  
+  .btncomprar a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: rgb(6, 6, 85);
+    border-radius: 50px;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    width: 180px;
+    padding: 10px;
+    margin-top: 5px;
+  }
+  
+  .btncomprar {
+    display: flex;
+    justify-content: center;
+  }
